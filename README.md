@@ -14,13 +14,16 @@
 此為強制轉換整句的文件，對象句子需與此文件「完全符合」才會生效，用途為取代翻譯機完全不會翻譯的句子，英文不需要此文件
 
 ### textChName.json
-此為產生臨時NPC名字的文件，臨時產生的名字會被存放在textNameTemporary.json裡，英文不需要此文件
+此為產生臨時NPC名字的文件，臨時產生的名字會被儲存在textNameTemporary.json裡，英文不需要此文件
 
 ### textMap.json
 此為地圖名字的文件，textMap、textName、textOther讀取後會合併成一個陣列
 
 ### textName.json
 此為NPC名字和專有名詞的文件，textMap、textName、textOther讀取後會合併成一個陣列
+
+### textNameTemporary.json
+此為用來儲存尚未分類的臨時名字
 
 ### textOther.json
 此為其他名字的文件，textMap、textName、textOther讀取後會合併成一個陣列
